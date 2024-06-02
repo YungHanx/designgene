@@ -2,10 +2,10 @@ import requests
 import json
 
 class ConversationService():
-    url = "https://dgluis.cognitiveservices.azure.com/language/:analyze-conversations?api-version=2022-10-01-preview"
+    url = "https://xxxxxxxxxxxx"
     headers = {
-        "Ocp-Apim-Subscription-Key": "14ffdeb9610f4a908135d7caa5936568",
-        "Apim-Request-Id": "4ffcac1c-b2fc-48ba-bd6d-b69d9942995a",
+        "Ocp-Apim-Subscription-Key": "xxxxxxxxxx",
+        "Apim-Request-Id": "xxxxxxxxxx",
         "Content-Type": "application/json"
     }
     payload = {
